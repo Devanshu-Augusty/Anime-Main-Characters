@@ -1,0 +1,141 @@
+html {
+    font-size: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    /* height: 1000px; */
+    /* width: 100vw; */
+    background-image: url('levi2.gif');
+    /* background-size:cover; */
+    background-attachment: fixed;
+    /* height: 10000px; */
+}
+ul.a {
+    position:sticky;
+    top: 0%;
+    background-color: black;
+    /* height: 4vh; */
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* border: 2px solid black; */
+    /* margin-left: 150px; */
+    /* margin-left: 0; */
+    border-radius: 10px;
+    /* margin: 0vh 27vw; */
+    /* margin-block-start: 0%; */
+}
+li.head {
+    list-style: none;
+    /* display: inline; */
+    /* float: left; */
+    font-size: 1.5rem;
+    margin-left: 15px;
+    
+}
+a.start {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+}
+a.start:hover {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+form.search {
+    border: 2px solid lightgreen;
+    /* border: transparent; */
+    border-radius: 10px;
+    max-width:min-content;
+    display: flex;
+    margin-top: 2px;
+    /* overflow: hidden; */
+}
+.search input {
+    background:transparent;
+    border: transparent;
+    color: white;
+    outline: none;
+}
+/* .search img {
+    height: 13px;
+    margin-left: 0;
+} */
+/* .search button {
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer; */
+    /* padding: 20px; */
+/* } */
+h1 {
+    text-align: center;
+    font-size:2.2rem ;
+    color:red;
+    font-family: Tahoma;
+}
+h2.first{
+    text-align: center;
+    font-size:1.5rem;
+}
+h2.second {
+    text-align: center;
+    font-size:1.5rem;
+}
+div.wel {
+    background: #18ff18;
+    /* height: 140px; */
+    align-content: center;
+    max-width:100vw;
+    overflow: auto;
+    /* font-size: 25px; */
+    margin-bottom: 2vh;
+}
+.select {
+    background: yellow;
+    overflow:auto;
+}
+
+
+ol.container {
+    /* list-style-type: circle; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+li.content {
+    display: list-item;
+    /* margin-left: 5vw; */
+    list-style:none;
+    /* word-spacing: 50px; */
+    margin: 15px;
+    
+}
+a.mc {
+    color: #5eff20;
+    font-size: 1.5rem;
+    text-decoration: none;
+    /* cursor: crosshair; */
+}
+a.mc:hover {
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+img.main {
+    height:20vh;
+    /* width: 13vw; */
+    /* vertical-align:sub; */
+    display: block;
+}
+img.main:hover {
+    border: 3px solid blue;
+    
+}
+/* #li5 {
+    display: block;
+} */

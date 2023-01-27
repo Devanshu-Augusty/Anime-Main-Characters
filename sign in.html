@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIN</title>
+    <style>
+        hmtl {
+            font-size:25px;
+        }
+        body{
+            background-image: url('tanjiro.jpg');
+            background-attachment: fixed;
+            /* display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center; */
+            height: 100vh;
+            
+        }
+    
+        header {
+            /* display: none; */
+            position: sticky;
+            top: 0;
+            margin-top: 0;
+        }
+        #drop {
+            margin-top: 0;
+            color: yellow;
+            background: red;
+            margin-bottom: 10px;
+            max-width: moz-fit-content;
+            font-size: 20px;
+            border: 2px solid black;
+            /* position: relative; */
+        }
+        header:hover .navbar {
+            display: block;
+        }
+        nav.navbar {
+            background-color: black;
+            display: none;
+            /* position: absolute; */
+        }
+        .navbar ul {
+            display: flex;
+            list-style-type: none;
+            
+        }
+        .navbar li {
+            margin: 7px 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .navbar a:hover {
+            background-color: green;
+            border-radius: 5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            height: 74vh;
+        }
+        label {
+            color: white;
+            background-color: black;
+            border:2px solid rgb(39, 39, 180);
+            font-size: 1.5rem;
+        }
+        #create-account {
+            margin-left: 24px;
+            text-decoration: none;
+        }
+        #create-account:hover {
+            text-decoration: underline;
+        }
+        button:hover {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="drop"><b>Click</b></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="anime character.html">Home</a></li>
+                <!-- <li><a href="about us.html">AboutUs</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <fieldset>
+            
+        <label>E-mail:</label><br>
+        <input type="email" placeholder="Enter vlaid E-mail..." required><br><br>
+        <label>Password:</label><br>
+        <input type="password" placeholder="Enter your password..." required><br><br>
+        <button>SignIn</button>
+        <a id="create-account" href="sign up.html">Create account</a>
+    </fieldset>
+    </form>
+
+</body>
